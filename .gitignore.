@@ -1,0 +1,24 @@
+
+# Archivos de configuracion privada
+.env
+*.env
+*.key
+*.pem
+*.crt
+*.cer
+
+# Credenciales y configuraciones locales
+secrets/
+config_local.*
+
+# Archivos de estado
+.iiot_sheets_last_id
+*.tmp
+
+# Archivos Python
+__pycache__/
+*.pyc
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
